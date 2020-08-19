@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
+  float b,h,ans;
+  printf("Enter B : ");
+  scanf("%f",&b);
+  printf("Enter H : ");
+  scanf("%f",&h);
+  ans = 0.5*b*h;
+  printf("Answer is %f",ans);
   return 0;
 }
